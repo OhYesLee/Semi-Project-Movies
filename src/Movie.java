@@ -8,7 +8,7 @@ public class Movie {
     private long id;//영화 대푯값
     private String title;//영화 제목
     private String genre;//영화 장르
-    private static final File file = new File("movies.txt"); //movies.txt 파일 객체
+    private static final File file = new File("movies.txt"); //movies.txt.txt 파일 객체
 
     public Movie(long id, String title, String genre) {//생성자
         this.id = id;
